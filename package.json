@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "cai-analytics",
+  "version": "1.2.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YadavAshish1/analytics-package.git"
+  },
+  "author": "Ashish Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YadavAshish1/analytics-package/issues"
+  },
+  "homepage": "https://github.com/YadavAshish1/analytics-package#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
